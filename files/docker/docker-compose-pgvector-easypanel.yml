@@ -23,8 +23,8 @@ services:
     networks:
       - fastgpt
     depends_on:
-      - mongo
-      - pg
+      # - mongo
+      # - pg
       - sandbox
     restart: always
     environment:
